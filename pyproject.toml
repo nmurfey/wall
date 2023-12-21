@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "wall"
+version = "0.1.0"
+description = ""
+authors = ["Nathan <murfey.nathan@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12.1"
+pillow = "^10.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
